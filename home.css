@@ -1,0 +1,83 @@
+body {
+  margin-top: 0;
+  text-align: center;
+  color: whitesmoke;
+  background-color: coral;
+}
+
+#hero {
+  text-align: center;
+  padding: 200px 0 200px 0;
+}
+
+#beach-img,
+#park-img,
+#bridge-img {
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#img-container,
+#p-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#hero-title {
+  background-color: brown;
+  text-shadow: 2px 2px black;
+  font-size: xx-large;
+  border-radius: 400px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#hero-h2 {
+  color: white;
+  text-shadow: 2px 2px brown;
+  font-size: xx-large;
+}
+
+#history,
+#parks,
+#bridges {
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+#img-title {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#hero {
+  background-image: url("sunset2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 200px 0 200px 0;
+}
+
+#pic {
+  height: 300px;
+  width: 300px;
+  border: 3px solid coral;
+  border-radius: 3px;
+}
+
+#guide-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  background-color: white;
+  color: coral;
+  border-radius: 3px;
+  margin: 5px auto 20px auto;
+}
