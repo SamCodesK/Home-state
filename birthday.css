@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(#00467f, #a5cc82);
+  color: white;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bf-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid blue;
+  margin-bottom: 5px;
+}
+
+#bff-img {
+  width: 10px;
+}
+
+#bday-age {
+  background: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px;
+}
+
+#bday-date {
+  margin: 0;
+  background: blue;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.gift-title {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  background-image: url("image.jpg");
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 300px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#gift-img-ht:hover {
+  background-image: url("ice-cube.gif");
+  background-size: 100px;
+}
+
+#gift-img-bn:hover {
+  background-image: url("turnup.gif");
+}
+
+#gift-img-eng:hover {
+  background-image: url("eng.gif");
+  background-size: 150px;
+}
+
+#gift-img-moves:hover {
+  background-image: url("dance.gif");
+  background-size: 400px;
+}
+
+#gift-img-cake:hover {
+  background-image: url("cake.gif");
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 5px orange;
+}
